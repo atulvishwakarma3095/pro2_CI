@@ -1,0 +1,11 @@
+CRITICAL - 2021-11-12 02:36:02 --> Invalid file: Login-layout.php
+#0 C:\xampp\htdocs\Pro2\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Login-layout.ph...')
+#1 C:\xampp\htdocs\Pro2\system\View\View.php(230): CodeIgniter\View\View->render('Login-layout', Array, true)
+#2 C:\xampp\htdocs\Pro2\system\Common.php(1097): CodeIgniter\View\View->render('Login/Login', Array, true)
+#3 C:\xampp\htdocs\Pro2\app\Controllers\Login.php(9): view('Login/Login')
+#4 C:\xampp\htdocs\Pro2\system\CodeIgniter.php(824): App\Controllers\Login->index()
+#5 C:\xampp\htdocs\Pro2\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#6 C:\xampp\htdocs\Pro2\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\Pro2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\Pro2\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
